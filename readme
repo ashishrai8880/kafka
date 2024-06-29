@@ -1,0 +1,4 @@
+node producer.js : command for running producer . 
+after running it expect 2 words first is name and second is location through which it identify which partition should use
+
+node consumer.js <group-name> : it will create consumer group . 
